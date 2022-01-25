@@ -76,7 +76,7 @@ solvers is not required.
 ## Symbolic chemistry and calculating reaction rate coefficients
 
 Catalyst is a great tool to model chemical reactions, but often reaction rate coefficients 
-are usually suspect. There are well established methods to calculate what these coefficients 
+are suspect. There are well established methods to calculate what these coefficients 
 should be given the activation energy of a reaction. We want to automate part of this modeling, 
 allowing the user to provide atom-bond graphs and have coefficients determined for free.
 
@@ -88,7 +88,7 @@ allowing the user to provide atom-bond graphs and have coefficients determined f
 @@
 
 **Recommended Skills**: Strong understanding of chemistry and Julia open-source programming, 
-particularly [Symbolics.jl](https://github.com/JuliaSymbolics/Symbolics.jl) and [ModelingToolkit.jl](https://github.com/SciML/ModelingToolkit.jl).
+particularly [Symbolics.jl](https://github.com/JuliaSymbolics/Symbolics.jl), [ModelingToolkit.jl](https://github.com/SciML/ModelingToolkit.jl) and [Catalyst.jl](https://github.com/SciML/Catalyst.jl).
 
 **Expected Results**: Define an interface for providing a Symbolics.jl object that contains relevant metadata for calculating activation energy and reaction rate coefficients using the Arrhenius equation.
 
